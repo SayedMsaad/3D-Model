@@ -10,7 +10,7 @@ const Scene = dynamic(()=>import('@/components/Scene'),{
 
 const Home = () => {
   return (
-    <main className='relative h-screen'>
+    <main className='h-screen w-screen mx-auto'>
       <Scene />
     </main>
   )
